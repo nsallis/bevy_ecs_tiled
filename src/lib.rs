@@ -83,7 +83,7 @@ pub mod prelude {
     // Re-exports from `bevy_ecs_tilemap`
     pub use bevy_ecs_tilemap::prelude::{
         TilePos, TilemapAnchor, TilemapGridSize, TilemapRenderSettings, TilemapSize,
-        TilemapTileSize, TilemapType,
+        TilemapTileSize, TilemapType, TileVisible
     };
     // Re-exports from `tiled`
     pub use tiled::World as TiledRawWorld; // Avoid name clash with Bevy `World`
